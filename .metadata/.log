@@ -385,3 +385,15 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/helloworld' is
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 !SUBENTRY 1 org.eclipse.core.resources 4 372 2017-08-22 09:28:13.941
 !MESSAGE Resource '/helloworld' is not open.
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-22 09:55:59.597
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-22 09:55:59.599
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-22 10:09:22.888
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-22 10:09:22.888
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

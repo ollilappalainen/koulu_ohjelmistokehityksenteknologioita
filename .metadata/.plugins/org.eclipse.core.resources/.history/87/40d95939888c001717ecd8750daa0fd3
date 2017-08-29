@@ -1,0 +1,5 @@
+package com.olli.Thymeleaftest.controllers;
+
+public class HelloController {
+
+}

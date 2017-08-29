@@ -1,0 +1,5 @@
+package com.ollilappalainen.HelloThyme.controllers;
+
+public class HelloController {
+
+}

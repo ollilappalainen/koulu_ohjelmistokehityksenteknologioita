@@ -1,0 +1,31 @@
+package com.olli.Thymeleaftest.models;
+
+public class Student {
+	String firstName;
+	String lastName;
+	String email;
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	
+	public void setFirstName(String firstName) {
+		firstName = this.firstName;
+	}
+	
+	public String getLastName() {
+		return lastName;
+	}
+	
+	public void setLastName(String lastName) {
+		lastName = this.lastName;
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public void setEmail(String email) {
+		email = this.email;
+	}
+}

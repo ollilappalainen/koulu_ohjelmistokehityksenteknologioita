@@ -1,0 +1,22 @@
+package com.ollilappalainen.HelloThyme.controllers;
+
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
+@ResponseBody
+public class HelloController {
+	public String mainPage() {
+		return "Query name and age pls.";
+	}
+	@RequestMapping("/hello")
+	public String hello(@RequestParam Map<String,String> requestParams) throws Exception {
+		String name = requestParams.get("name");
+		String age = requestParams.get("age");
+		return name + age;
+	}
+}

@@ -1,0 +1,23 @@
+package com.olli.Thymeleaftest.controllers;
+
+import java.util.Map;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.ui.Model;
+
+@Controller
+public class HelloController {
+	@RequestMapping("/hello")
+	public String hello(@RequestParam Map<String,String> requestParams) throws Exception {
+		String location = requestParams.get("location");
+		String name = requestParams.get("name");
+		return "Hello to the " + location + ", " + name;
+	}
+	@RequestMapping(value = "message")
+	public String messages(Model model) {
+		model.addAttribute("messages", messageRepository.findAll());
+		return "messagelist";
+	}
+}

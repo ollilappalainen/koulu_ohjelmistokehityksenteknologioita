@@ -3484,3 +3484,8 @@ org.eclipse.core.runtime.CoreException: Launch configuration HelloFormApplicatio
 2017-09-05 11:24:55,446 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2017-09-05 11:24:55,448 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-09-05 11:24:55,448 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\KouluProjektit\koulu_ohjelmistokehityksenteknologioita\Thymeleaftest\src\test\resources
+2017-09-05 11:30:04,427 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-05 11:30:04,427 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-05 11:30:04,429 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-05 11:30:04,430 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-05 11:30:04,430 [Worker-75] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\KouluProjektit\koulu_ohjelmistokehityksenteknologioita\Thymeleaftest\src\test\resources

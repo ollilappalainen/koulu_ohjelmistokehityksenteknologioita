@@ -19,4 +19,23 @@
 <entry path="C:\ProgramData\Microsoft\AppV\Client\Integration\56CE7ED2-7B7B-4F46-B794-5C8FF626F7FC\Root\VFS\AppVPackageDrive\Install\eclipse\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\Program Files\Java\jre1.8.0_141" version="1.8.0_141">
+<bootpath>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jre1.8.0_141\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jre1.8.0_141\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 </libraryInfos>

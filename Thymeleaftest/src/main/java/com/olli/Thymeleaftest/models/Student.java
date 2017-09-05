@@ -1,9 +1,25 @@
 package com.olli.Thymeleaftest.models;
 
 public class Student {
+	long index;
 	String firstName;
 	String lastName;
 	String email;
+	
+	public Student(long index, String firstName, String lastName, String email) {
+		this.index = index;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+	}
+	
+	public long getIndex() {
+		return index;
+	}
+	
+	public void setIndex(long index) {
+		index = this.index;
+	}
 	
 	public String getFirstName() {
 		return firstName;

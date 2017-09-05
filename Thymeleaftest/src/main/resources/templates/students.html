@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Thymetest</title>
+	</head>
+	<body>
+		<div id="friendlist">
+		<h2>Students</h2>
+			<table>
+				<tr th:each="student : ${students}">
+					<td th:text="${student.firstName}">...</td>
+					<td th:text="${student.lastName}">...</td>				
+					<td th:text="${student.email}">...</td>
+				</tr>
+			</table>
+		</div>
+		<div id="addfriend">
+			<h2>Add a new student</h2>
+			<form action="#" th:action="@{/hello}" th:object="${studentlist}" method="post">
+			  First name:
+			  <br />
+			  <input type="text" id="firstname" name="firstname" th:value="${firstName}" />
+			  <br />
+			  Last name:
+			  <br />
+			  <input type="text" id="lastname" name="lastname" th:value="${lastName}" />
+			  <br />
+			  Email:
+			  <br />
+			  <input type="email" id="email" name="email" th:value="${email}" />
+			  <br />
+			  <input type="submit" id="addbutton" value="Add student" />
+			</form>
+		</div>
+	</body>
+</html>

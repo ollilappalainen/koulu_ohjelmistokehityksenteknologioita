@@ -13,8 +13,8 @@ import com.olli.Thymeleaftest.models.*;
 
 @Controller
 public class HelloController {
-	@RequestMapping(value="/hello", method=RequestMethod.GET)
-	public String hello(@RequestParam Map<String,String> requestParams, Model model) throws Exception {
+	@RequestMapping(value="/students", method=RequestMethod.GET)
+	public String student(@RequestParam Map<String,String> requestParams, Model model) throws Exception {
 			
 		ArrayList<Student> studentList = new ArrayList<Student>();
 		
@@ -24,6 +24,7 @@ public class HelloController {
 		
 		model.addAttribute("students", studentList);
 		
-		return "hello";
+		return "students";
 	}
+	
 }

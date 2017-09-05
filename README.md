@@ -1,2 +1,6 @@
-# koulu_ohjelmistokehityksenteknologioita
-Repository for school projects in Software development technologies class.
+# Repository for exercises in Software development technologies university class
+
+## Used technologies:
+  * Java
+  * Thymeleaf
+  * React

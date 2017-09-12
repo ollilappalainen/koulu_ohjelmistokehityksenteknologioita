@@ -1,47 +1,52 @@
 package com.olli.Thymeleaftest.models;
 
 public class Student {
-	long index;
+	long id;
 	String firstName;
 	String lastName;
 	String email;
 	
-	public Student(long index, String firstName, String lastName, String email) {
-		this.index = index;
+	public Student(long id, String firstName, String lastName, String email) {
+		this.id = id;
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.email = email;
 	}
 	
-	public long getIndex() {
-		return index;
+	public Student() {}
+	
+	
+	public long getId() {
+		return id;
 	}
 	
-	public void setIndex(long index) {
-		index = this.index;
+	public void setId(long id) {
+		this.id = id;
 	}
-	
+
 	public String getFirstName() {
 		return firstName;
 	}
-	
+
 	public void setFirstName(String firstName) {
-		firstName = this.firstName;
+		this.firstName = firstName;
 	}
-	
+
 	public String getLastName() {
 		return lastName;
 	}
-	
+
 	public void setLastName(String lastName) {
-		lastName = this.lastName;
+		this.lastName = lastName;
 	}
-	
+
 	public String getEmail() {
 		return email;
 	}
-	
+
 	public void setEmail(String email) {
-		email = this.email;
+		this.email = email;
 	}
+	
+	
 }

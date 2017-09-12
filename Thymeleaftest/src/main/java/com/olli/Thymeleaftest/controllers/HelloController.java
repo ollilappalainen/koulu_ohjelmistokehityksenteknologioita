@@ -14,23 +14,28 @@ import com.olli.Thymeleaftest.models.*;
 
 @Controller
 public class HelloController {
-	ArrayList<Student> studentList = new ArrayList<Student>();
-	
-	@RequestMapping(value="/students", method=RequestMethod.GET)
-	public String student(@RequestParam Map<String,String> requestParams, Model model) throws Exception {
-		
+	ArrayList<Student> studentList;
+	public HelloController() {
+		studentList = new ArrayList<Student>();
 		studentList.add(new Student(0, "Pekka", "Maijanen", "pekka.maijanen@gmail.com"));
 		studentList.add(new Student(1, "Mari", "Ahonen", "mari.ahonen@gmail.com"));
 		studentList.add(new Student(2, "Matti", "Nykänen", "matti.nykanen@gmail.com"));
-		
-		model.addAttribute("students", studentList);
-		
+	}
+	
+	@RequestMapping(value="/students", method=RequestMethod.GET)
+	public String student(Model model) throws Exception {		
+		model.addAttribute("student", new Student());
+		model.addAttribute("students", studentList);		
 		return "students";
 	}
 	
-	@RequestMapping(value="/students", method=RequestMethod.POST)
+	@RequestMapping(value="/addstudents", method=RequestMethod.POST)
 	public String addStudent(@ModelAttribute Student student, Model model) {
+		studentList.add(student);
+		System.out.println(studentList.size());
+		
 		model.addAttribute("students", studentList);
-		return "redirect:/result";
+		return "redirect:/students";
 	} 
 }
+

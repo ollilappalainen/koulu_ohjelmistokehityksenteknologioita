@@ -1,7 +1,0 @@
-package com.olli.Thymeleaftest.models;
-
-public class names {
-	public String firstName;
-	public String lastName;
-	public String email;
-}

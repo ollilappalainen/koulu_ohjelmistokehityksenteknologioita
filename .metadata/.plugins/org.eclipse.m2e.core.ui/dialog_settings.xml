@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\KouluProjektit\koulu_ohjelmistokehityksenteknologioita"/>
 			<item value="C:\Users\a1503089\Downloads\helloworld"/>
 		</list>
 		<list key="projectNameTemplate">
